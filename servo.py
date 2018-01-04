@@ -11,10 +11,10 @@ class PyApp(gtk.Window):
         self.set_title("Maska Bahitowa")
         self.lbl = gtk.Label("Obsługa Maski Bahitova")
 
-        self.btn1 = gtk.Button("Otwórz")
+        self.btn1 = gtk.Button("OPEN")
         self.btn1.connect("button_press_event", self.open)
 
-        self.btn2 = gtk.Button("Zamknij")
+        self.btn2 = gtk.Button("CLOSE")
         self.btn2.connect("button_press_event", self.close)
 
 
