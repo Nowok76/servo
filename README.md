@@ -1,5 +1,8 @@
-Jest to skrypt obsługujący Maskę Bahitova przymocowaną do srevo mechanizmu.
-Po naciśnięciu OPEN maska obraca się o 180*
-Przycisk CLOSE zamyka maskę.
+# SERVO z maską Bahitova
 
-Skrypt uruchamia się z poziomu terminala.
+Jest to skrypt obsługujący Maskę Bahitova przymocowaną do servo mechanizmu.
+- OPEN maska obraca się o 180*
+- CLOSE maska obraca się do poprzedniej pozycji.
+
+Skrypt uruchamia się poleceniem:
+- python servo.py
